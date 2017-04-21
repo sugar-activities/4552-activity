@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-15 00:31-0500\n"
+"PO-Revision-Date: 2011-11-04 22:11+0200\n"
+"Last-Translator: whe <heppew@yahoo.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: activity/activity.info:2
+msgid "Record"
+msgstr "Opnemen"
+
+#: button.py:26
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: button.py:37
+msgid "Copy to clipboard"
+msgstr "Kopiëren naar klembord"
+
+#: constants.py:25 record.py:140
+msgid "Photo"
+msgstr "Foto"
+
+#: constants.py:32 record.py:148
+msgid "Video"
+msgstr "Film"
+
+#: constants.py:39 record.py:159
+msgid "Audio"
+msgstr "Geluid"
+
+#: glive.py:396 model.py:384
+#, python-format
+msgid "%s by %s"
+msgstr "%s bij %s"
+
+#: glive.py:555
+msgid "Saving..."
+msgstr "Bewaren..."
+
+#: mediaview.py:54
+msgid "Author:"
+msgstr "Auteur:"
+
+#: mediaview.py:70
+msgid "Tags:"
+msgstr "Labels:"
+
+#: mediaview.py:118
+msgid "Date:"
+msgstr "Datum:"
+
+#: model.py:183
+#, python-format
+msgid "%d:%02d remaining"
+msgstr "%d:%02d over"
+
+#: record.py:209
+msgid "Title:"
+msgstr "Titel:"
+
+#: record.py:535
+msgid "Download failed."
+msgstr "Download faalde."
+
+#: record.py:537
+msgid "Downloading..."
+msgstr "Downloaden..."
+
+#: record.py:539
+msgid "Requesting..."
+msgstr "Opvragen..."
+
+#: record.py:836
+msgid "Quality:"
+msgstr "Kwaliteit:"
+
+#: record.py:837
+msgid "Low"
+msgstr "Laag"
+
+#: record.py:841
+msgid "High"
+msgstr "Hoog"
+
+#: record.py:849
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: record.py:899
+msgid "Immediate"
+msgstr "Rechtstreeks"
+
+#: record.py:916
+#, python-format
+#, python-format,
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s seconde"
+msgstr[1] "%s seconden"
+
+#: record.py:941
+#, python-format
+#, python-format,
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minuut"
+msgstr[1] "%s minuten"
+
+#~ msgid "Timer:"
+#~ msgstr "Aftelklok:"
+
+#~ msgid "Duration:"
+#~ msgstr "Duur:"
+
+#~ msgid "Time Lapse"
+#~ msgstr "Tijdsverloop"
+
+#~ msgid "Animation"
+#~ msgstr "Animatie"
+
+#~ msgid "Panorama"
+#~ msgstr "Panorama"
+
+#~ msgid "Interview"
+#~ msgstr "Interview"
+
+# TRANS: photo by photographer, e.g., "Photo by Mary"
+#, python-format
+#~ msgid "%(1)s by %(2)s"
+#~ msgstr "%(1)s gemaakt door %(2)s"
+
+#~ msgid "Recorder:"
+#~ msgstr "Opgenomen door:"
+
+#~ msgid "Saving"
+#~ msgstr "Bewaren"
+
+#~ msgid "Finished recording"
+#~ msgstr "Klaar met opnemen"
+
+#~ msgid "Stopped recording"
+#~ msgstr "Gestopt met opnemen"
+
+#~ msgid "Remaining:"
+#~ msgstr "Resterend:"
+
+#~ msgid "Play"
+#~ msgstr "Afspelen"
+
+#~ msgid "Pause"
+#~ msgstr "Pauze"
+
+#~ msgid "Add frame"
+#~ msgstr "Beeldje toevoegen"
+
+# Beeldje is vermoedelijk geen correct jargon
+#~ msgid "Remove frame"
+#~ msgstr "Beeldje verwijderen"
+
+#, python-format
+#~ msgid "%(1)s frames per second"
+#~ msgstr "%(1)s beelden per seconde"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"
+
+#~ msgid "Best"
+#~ msgstr "Beste"
+
+#~ msgid "Large file"
+#~ msgstr "Groot bestand"
+
+#~ msgid "Small file"
+#~ msgstr "Klein bestand"
+
+#~ msgid "Silent"
+#~ msgstr "Stil"
+
+#~ msgid "Rotate"
+#~ msgstr "Draaien"
+
+#~ msgid "Width"
+#~ msgstr "Breedte"
+
+#~ msgid "Height"
+#~ msgstr "Hoogte"
+
+#~ msgid "Click to take picture"
+#~ msgstr "Klik om een foto te maken"
+
+#~ msgid "Click to add picture"
+#~ msgstr "Klik om de afbeelding toe te voegen"
+
+# TRANS: Downloading Photo from Mary
+#, python-format
+#~ msgid "Downloading %(1)s from %(2)s"
+#~ msgstr "Downloaden van %(1)s van %(2)s"
+
+# TRANS: Cannot download this Photo
+#, python-format
+#~ msgid "Cannot download this %(1)s"
+#~ msgstr "Kan deze %(1)s niet downloaden"
+
+# TRANS: Save Photo to:
+#, python-format
+#~ msgid "Save %(1)s to:"
+#~ msgstr "Sla %(1)s op in:"
+
+#, python-format
+#~ msgid "Your %(1)s is full"
+#~ msgstr "Je %(1)s is vol"
+
+#~ msgid "Journal"
+#~ msgstr "Dagboek"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "SD Card"
+#~ msgstr "SD kaart"
+
+#~ msgid "Free space:"
+#~ msgstr "Vrije ruimte:"
+
+#~ msgid "Bitrate"
+#~ msgstr "Bitratio"
+
+#~ msgid "Maximum Bitrate"
+#~ msgstr "Maximum bitratio"
+
+#~ msgid "Minumum Bitrate"
+#~ msgstr "Minimum bitratio"
+
+#~ msgid "Manage Bitrate"
+#~ msgstr "Bitratio beheren"
+
+#~ msgid "Border"
+#~ msgstr "Rand"
+
+#~ msgid "Center"
+#~ msgstr "Midden"
+
+#~ msgid "Frames"
+#~ msgstr "Kaders"
+
+#~ msgid "Automatic keyframe detection"
+#~ msgstr "Automatisch sleutelkader detectie"
+
+#~ msgid "Force keyframe"
+#~ msgstr "Forceer sleutelkader"
+
+#~ msgid "Keyframe frequency"
+#~ msgstr "Sleutelkader frequentie"
+
+#~ msgid "Keyframe minimum distance"
+#~ msgstr "Sleutelkader minimum afstand"
+
+#~ msgid "Keyframe threshold"
+#~ msgstr "Sleutelkader drempelwaarde"
+
+#~ msgid "Noise Sensitivity"
+#~ msgstr "Ruisgevoeligheid"
+
+#~ msgid "Quick"
+#~ msgstr "Snel"
+
+#~ msgid "Sharpness"
+#~ msgstr "Scherpheid"
+
+#~ msgid "Capacity"
+#~ msgstr "Capaciteit"
+
+#, python-format
+#~ msgid "%(1)s hours, %(2)s minutes, %(3)s seconds remaining"
+#~ msgstr "%(1)s uren, %(2)s minuten, %(3)s seconden resterend"
+
+#, python-format
+#~ msgid "%(1)s minutes, %(2)s seconds remaining"
+#~ msgstr "%(1)s minuten, %(2)s seconden resterend"
+
+#, python-format
+#~ msgid "%(1)s hours remaining"
+#~ msgstr "%(1)s uren resterend"
+
+#, python-format
+#~ msgid "%(1)s minutes remaining"
+#~ msgstr "%(1)s minuten resterend"
+
+#, python-format
+#~ msgid "%(1)s seconds remaining"
+#~ msgstr "%(1)s seconden resterend"
+
+# TRANS: 7 photos
+#, python-format
+#~ msgid "%(1)s hours"
+#~ msgstr "%(1)s uren"
+
+# TRANS: 7 photos
+#, python-format
+#~ msgid "%(1)s photos"
+#~ msgstr "%(1)s foto's"

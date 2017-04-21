@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-04 00:30-0400\n"
+"PO-Revision-Date: 2011-09-17 10:59+0200\n"
+"Last-Translator: samy boutayeb <s.boutayeb@free.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.1\n"
+
+#: activity/activity.info:2
+msgid "Record"
+msgstr "Enregistrer"
+
+#: button.py:26
+msgid "Remove"
+msgstr "Retirer"
+
+#: button.py:37
+msgid "Copy to clipboard"
+msgstr "Copier vers le presse-papier"
+
+#: constants.py:24 record.py:133
+msgid "Photo"
+msgstr "Photo"
+
+#: constants.py:31 record.py:141
+msgid "Video"
+msgstr "Vidéo"
+
+#: constants.py:38 record.py:152
+msgid "Audio"
+msgstr "Audio"
+
+#: glive.py:397 model.py:355
+#, python-format
+msgid "%s by %s"
+msgstr "%s sur %s"
+
+#: glive.py:556
+msgid "Saving..."
+msgstr "Enregistrement..."
+
+#: mediaview.py:54
+msgid "Author:"
+msgstr "Auteur :"
+
+#: mediaview.py:70
+msgid "Tags:"
+msgstr "Étiquettes :"
+
+#: mediaview.py:118
+msgid "Date:"
+msgstr "Date :"
+
+#: model.py:154
+#, python-format
+msgid "%d:%02d remaining"
+msgstr "%d:%02d restantes"
+
+#: record.py:202
+msgid "Title:"
+msgstr "Titre :"
+
+#: record.py:527
+msgid "Download failed."
+msgstr "Échec du téléchargement."
+
+#: record.py:529
+msgid "Downloading..."
+msgstr "Téléchargement en cours..."
+
+#: record.py:531
+msgid "Requesting..."
+msgstr "Demande..."
+
+#: record.py:828
+msgid "Quality:"
+msgstr "Qualité :"
+
+#: record.py:829
+msgid "Low"
+msgstr "Basse"
+
+#: record.py:833
+msgid "High"
+msgstr "Élevée"
+
+#: record.py:841
+msgid "Preferences"
+msgstr "Préférences"
+
+#: record.py:888
+msgid "Timer:"
+msgstr "Temporisation :"
+
+#: record.py:892
+msgid "Immediate"
+msgstr "Immédiat"
+
+#: record.py:909
+#, python-format
+#, python-format,
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s seconde"
+msgstr[1] "%s secondes"
+
+#: record.py:917
+msgid "Duration:"
+msgstr "Durée :"
+
+#: record.py:935
+#, python-format
+#, python-format,
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minute"
+msgstr[1] "%s minutes"
+
+#~ msgid "Time Lapse"
+#~ msgstr "Laps de temps"
+
+#~ msgid "Animation"
+#~ msgstr "Animation"
+
+#~ msgid "Panorama"
+#~ msgstr "Panorama"
+
+#~ msgid "Interview"
+#~ msgstr "Interview"
+
+# TRANS: photo by photographer, e.g., "Photo by Mary"
+#, python-format
+#~ msgid "%(1)s by %(2)s"
+#~ msgstr "%(1)s par %(2)s"
+
+#~ msgid "Recorder:"
+#~ msgstr "Enregistreur :"
+
+#~ msgid "Saving"
+#~ msgstr "Sauvegarde"
+
+#~ msgid "Finished recording"
+#~ msgstr "Enregistrement terminé"
+
+#~ msgid "Stopped recording"
+#~ msgstr "Enregistrement arrêté"
+
+#~ msgid "Remaining:"
+#~ msgstr "Restant :"
+
+#~ msgid "Play"
+#~ msgstr "Lecture"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "Add frame"
+#~ msgstr "Ajouter une image"
+
+#~ msgid "Remove frame"
+#~ msgstr "Retirer une image"
+
+#, python-format
+#~ msgid "%(1)s frames per second"
+#~ msgstr "%(1)s images par seconde"
+
+#~ msgid "Default"
+#~ msgstr "Défaut"
+
+#~ msgid "Best"
+#~ msgstr "Meilleur"
+
+#~ msgid "Large file"
+#~ msgstr "Fichier volumineux"
+
+#~ msgid "Small file"
+#~ msgstr "Fichier de petite taille"
+
+#~ msgid "Silent"
+#~ msgstr "Muet"
+
+#~ msgid "Rotate"
+#~ msgstr "Pivotement"
+
+#~ msgid "Width"
+#~ msgstr "Largeur"
+
+#~ msgid "Height"
+#~ msgstr "Hauteur"
+
+#~ msgid "Click to take picture"
+#~ msgstr "Cliquer pour prendre une photo"
+
+#~ msgid "Click to add picture"
+#~ msgstr "Cliquer pour ajouter une photo"
+
+# TRANS: Downloading Photo from Mary
+#, python-format
+#~ msgid "Downloading %(1)s from %(2)s"
+#~ msgstr "Téléchargement de %(1)s sur %(2)s"
+
+# TRANS: Cannot download this Photo
+#, python-format
+#~ msgid "Cannot download this %(1)s"
+#~ msgstr "Téléchargement de %(1)s impossible"
+
+# TRANS: Save Photo to:
+#, python-format
+#~ msgid "Save %(1)s to:"
+#~ msgstr "Enregistrer %(1)s sur :"
+
+#, python-format
+#~ msgid "Your %(1)s is full"
+#~ msgstr "Vous n'avez plus d'espace libre sur %(1)s"
+
+#~ msgid "Journal"
+#~ msgstr "Journal"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "SD Card"
+#~ msgstr "SD Card"
+
+#~ msgid "Free space:"
+#~ msgstr "Espace libre :"
+
+#~ msgid "Bitrate"
+#~ msgstr "Débit"
+
+#~ msgid "Maximum Bitrate"
+#~ msgstr "Débit maximum"
+
+#~ msgid "Minumum Bitrate"
+#~ msgstr "Débit minimum"
+
+#~ msgid "Manage Bitrate"
+#~ msgstr "Gestion du débit"
+
+#~ msgid "Border"
+#~ msgstr "Bord"
+
+#~ msgid "Center"
+#~ msgstr "Centre"
+
+#~ msgid "Frames"
+#~ msgstr "Images"
+
+#~ msgid "Automatic keyframe detection"
+#~ msgstr "Détection automatique des images clés"
+
+#~ msgid "Force keyframe"
+#~ msgstr "Forcer l'image clé"
+
+#~ msgid "Keyframe frequency"
+#~ msgstr "Fréquence des images clés"
+
+#~ msgid "Keyframe minimum distance"
+#~ msgstr "Distance minimum entre images clés"
+
+#~ msgid "Keyframe threshold"
+#~ msgstr "Seuil d'images clés"
+
+#~ msgid "Noise Sensitivity"
+#~ msgstr "Sensibilité au bruit"
+
+#~ msgid "Quick"
+#~ msgstr "Rapidité"
+
+#~ msgid "Sharpness"
+#~ msgstr "Définition"
+
+#~ msgid "Capacity"
+#~ msgstr "Capacité"
+
+#, python-format
+#~ msgid "%(1)s hours, %(2)s minutes, %(3)s seconds remaining"
+#~ msgstr "%(1)s heures, %(2)s minutes, %(1)s secondes restantes"
+
+#, python-format
+#~ msgid "%(1)s minutes, %(2)s seconds remaining"
+#~ msgstr "%(1)s minutes, %(2)s secondes restantes"
+
+#, python-format
+#~ msgid "%(1)s hours remaining"
+#~ msgstr "%(1)s heures restantes"
+
+#, python-format
+#~ msgid "%(1)s minutes remaining"
+#~ msgstr "%(1)s minutes restantes"
+
+#, python-format
+#~ msgid "%(1)s seconds remaining"
+#~ msgstr "%(1)s secondes restantes"
+
+# TRANS: 7 photos
+#, python-format
+#~ msgid "%(1)s hours"
+#~ msgstr "%(1)s heures"
+
+# TRANS: 7 photos
+#, python-format
+#~ msgid "%(1)s photos"
+#~ msgstr "%(1)s photos"
+
+#~ msgid "Best quality"
+#~ msgstr "Qualité optimale"
+
+#~ msgid "High quality"
+#~ msgstr "Qualité élevée"
+
+#~ msgid "Low quality"
+#~ msgstr "Qualité faible"
+
+#~ msgid "Your disk is full"
+#~ msgstr "Votre disque est saturé"

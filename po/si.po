@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-27 00:32-0400\n"
+"PO-Revision-Date: 2008-09-15 06:28-0400\n"
+"Last-Translator: Rashan Anushka <rashan.uoc@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+
+#: activity/activity.info:2
+msgid "Record"
+msgstr "පටිගත කරන්න"
+
+#: button.py:26
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+#: button.py:37
+msgid "Copy to clipboard"
+msgstr "පසුරු පුවරුවට පිටපත් කරන්න"
+
+#: constants.py:25 record.py:140
+msgid "Photo"
+msgstr "පින්තූරය"
+
+#: constants.py:32 record.py:148
+msgid "Video"
+msgstr "වීඩියෝ දසුන"
+
+#: constants.py:39 record.py:159
+msgid "Audio"
+msgstr "ශ්‍රව්‍ය"
+
+#: glive.py:396 model.py:384
+#, python-format
+msgid "%s by %s"
+msgstr ""
+
+#: glive.py:555
+msgid "Saving..."
+msgstr ""
+
+#: mediaview.py:54
+msgid "Author:"
+msgstr ""
+
+#: mediaview.py:70
+msgid "Tags:"
+msgstr "ටෑගයන්:"
+
+#: mediaview.py:118
+msgid "Date:"
+msgstr "දිනය:"
+
+#: model.py:183
+#, python-format
+msgid "%d:%02d remaining"
+msgstr ""
+
+#: record.py:209
+msgid "Title:"
+msgstr "සිරැසිය:"
+
+#: record.py:535
+msgid "Download failed."
+msgstr ""
+
+#: record.py:537
+msgid "Downloading..."
+msgstr ""
+
+#: record.py:539
+msgid "Requesting..."
+msgstr ""
+
+#: record.py:836
+#, fuzzy
+msgid "Quality:"
+msgstr "ගුණත්වය"
+
+#: record.py:837
+msgid "Low"
+msgstr "අඩු"
+
+#: record.py:841
+msgid "High"
+msgstr "උසස්"
+
+#: record.py:849
+msgid "Preferences"
+msgstr "අභිරුචි"
+
+#: record.py:899
+msgid "Immediate"
+msgstr "එසැනින්"
+
+#: record.py:916
+#, python-format
+#, fuzzy
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "තත්පර %(1)s ක්"
+
+#: record.py:941
+#, python-format
+#, fuzzy
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "මිනිත්තු %(1)s"
+
+#~ msgid "Timer:"
+#~ msgstr "මුහුර්තකය:"
+
+#~ msgid "Duration:"
+#~ msgstr "කාල සීමාව:"
+
+#~ msgid "Time Lapse"
+#~ msgstr "කාල අපගමනය"
+
+#~ msgid "Animation"
+#~ msgstr "සජීවනය"
+
+#~ msgid "Panorama"
+#~ msgstr "පරිදර්ශනය"
+
+#~ msgid "Interview"
+#~ msgstr "අබිදැක්ම"
+
+#, python-format
+#~ msgid "%(1)s by %(2)s"
+#~ msgstr "%(1)s %(2)s මඟිනි"
+
+#~ msgid "Recorder:"
+#~ msgstr "රෙකෝඩරය:"
+
+#~ msgid "Saving"
+#~ msgstr "සුරැකේ"
+
+#~ msgid "Finished recording"
+#~ msgstr "පටිගත කිරීම අවසන්"
+
+#~ msgid "Stopped recording"
+#~ msgstr "පටිගත කිරීම නවතන ලදි"
+
+#~ msgid "Play"
+#~ msgstr "වයන්න"
+
+#~ msgid "Pause"
+#~ msgstr "විරාමයක්"
+
+#~ msgid "Add frame"
+#~ msgstr "රාමුවක් එක් කරන්න"
+
+#~ msgid "Remove frame"
+#~ msgstr "රාමුව ඉවත් කරන්න"
+
+#, python-format
+#~ msgid "%(1)s frames per second"
+#~ msgstr "තත්පරයට රාමු %(1)s ක්"
+
+#~ msgid "Default"
+#~ msgstr "පෙරනිමිය"
+
+#~ msgid "Best"
+#~ msgstr "ඉස්තරම්"
+
+#~ msgid "Large file"
+#~ msgstr "විශාල ගොනුවක්"
+
+#~ msgid "Small file"
+#~ msgstr "කුඩා ගොනුවක්"
+
+#~ msgid "Silent"
+#~ msgstr "නිශ්ශබ්ද"
+
+#~ msgid "Rotate"
+#~ msgstr "භ්‍රමණය කරන්න"
+
+#~ msgid "Width"
+#~ msgstr "පළල"
+
+#~ msgid "Height"
+#~ msgstr "උස"
+
+#~ msgid "Click to take picture"
+#~ msgstr "පින්තූරය ගැනීමට ක්ලික් කරන්න"
+
+#~ msgid "Click to add picture"
+#~ msgstr "පින්තූරය එක් කිරීම සඳහා ක්ලික් කරන්න"
+
+#, python-format
+#~ msgid "Downloading %(1)s from %(2)s"
+#~ msgstr "%(2)s න් %(1)s බාගත කෙරේ"
+
+#, python-format
+#~ msgid "Cannot download this %(1)s"
+#~ msgstr "මෙම %(1)s බාගත කළ නොහැක"
+
+#, python-format
+#~ msgid "Save %(1)s to:"
+#~ msgstr "%(1)s සුරැකිය යුත්තේ:"
+
+#, python-format
+#~ msgid "Your %(1)s is full"
+#~ msgstr "ඔබගේ %(1)s පිරී ඇත"
+
+#~ msgid "Journal"
+#~ msgstr "ජර්නලය"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "SD Card"
+#~ msgstr "SD පත"
+
+#~ msgid "Free space:"
+#~ msgstr "නිදහස් ඉඩ:"
+
+#~ msgid "Bitrate"
+#~ msgstr "බිටු ශීඝ්‍රතාව"
+
+#~ msgid "Maximum Bitrate"
+#~ msgstr "උපරිම බිටු ශීඝ්‍රතාව"
+
+#~ msgid "Minumum Bitrate"
+#~ msgstr "අවම බිටු ශීඝ්‍රතාව"
+
+#~ msgid "Manage Bitrate"
+#~ msgstr "බිටු ශීඝ්‍රතාව කළමණාකරනය කරන්න"
+
+#~ msgid "Border"
+#~ msgstr "දාරය"
+
+#~ msgid "Center"
+#~ msgstr "මධ්‍යය"
+
+#~ msgid "Frames"
+#~ msgstr "රාමු"
+
+#~ msgid "Automatic keyframe detection"
+#~ msgstr "ස්වයංක්‍රීය මූල රාමු අභික්ෂණය"
+
+#~ msgid "Force keyframe"
+#~ msgstr "මූල රාමුව බල කරන්න"
+
+#~ msgid "Keyframe frequency"
+#~ msgstr "මූල රාමු සංඛ්‍යාතය"
+
+#~ msgid "Keyframe minimum distance"
+#~ msgstr "මූල රාමු අවම දුර"
+
+#~ msgid "Keyframe threshold"
+#~ msgstr "මූල රාමු සීමකය"
+
+#~ msgid "Noise Sensitivity"
+#~ msgstr "ඝෝෂා සංවේදිතාව"
+
+#~ msgid "Quick"
+#~ msgstr "ක්ෂණික"
+
+#~ msgid "Sharpness"
+#~ msgstr "තියුණු බව"
+
+#~ msgid "Capacity"
+#~ msgstr "ධාරිතාව"
+
+#, python-format
+#~ msgid "%(1)s hours, %(2)s minutes, %(3)s seconds remaining"
+#~ msgstr "පැය %(1)s , මිනිත්තු %(2)s , තත්පර %(3)s ක් ඉතිරියි"
+
+#, python-format
+#~ msgid "%(1)s minutes, %(2)s seconds remaining"
+#~ msgstr "මිනිත්තු %(1)s , තත්පර %(2)s ක් ඉතිරියි"
+
+#, python-format
+#~ msgid "%(1)s hours remaining"
+#~ msgstr "පැය %(1)s ක් ඉතිරියි"
+
+#, python-format
+#~ msgid "%(1)s minutes remaining"
+#~ msgstr "මිනිත්තු %(1)s ක් ඉතිරියි"
+
+#, python-format
+#~ msgid "%(1)s seconds remaining"
+#~ msgstr "තත්පර %(1)s ක් ඉතිරියි"
+
+#, python-format
+#~ msgid "%(1)s hours"
+#~ msgstr "පැය %(1)s"
+
+#, python-format
+#~ msgid "%(1)s photos"
+#~ msgstr "පින්තූර %(1)s ක්"

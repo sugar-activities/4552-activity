@@ -1,0 +1,250 @@
+76
+
+* Switch to Daniel Drake's branch
+  Restore the v60 rewrite to use a single pipeline, tweaking at runtime
+  when necessary. This improves responsivity of the application, and results
+  in the activity behaving reliably again.
+* This version requires gstreamer-0.10.20
+
+68..75
+
+* Range was preserved for possible sucrose-0.82 branch updates
+
+67
+
+* Fix 0sugar "Cannot find cached 0sugar-launch implementation." isuue
+
+66
+
+* Increase audio volume on XO
+* 0sugarize Record blobs to let use native gst on recent systems
+
+65
+
+* Use hippo.cairo_surface_from_gdk_pixbuf instead of bundling blobs
+* Add gst logging
+* Record 64 does not record sound #1244
+
+64
+
+* #848 Hide photo/video tabs if camera doesn't exist 
+* Update .po files
+
+63
+
+* Change only volumes for "Capture" channels and let user change others
+* Record controls only appear on second launch #762
+
+62
+
+* Select quality for enconding video
+* Unmute/set-to-max capture channels
+  workaround code until sugar controls capture volumes in the shell
+* Revert two pass video encoding to support limited hardware
+* Save GUI state in Journal objects
+
+61
+
+* Use uuid and do not md5 video files
+* Fallback to ximagesink if xvimagesink is unaccessible
+* Use one pass for encodings
+
+60
+
+* pipeline rework; makes the activity work with new gstreamer
+
+59
+
+* #8580 record fails to keep images if closed. (erikg)
+
+58
+
+* Add MANIFEST (cscott)
+* Update license and update_url fields (cscott)
+
+54
+* #6679 fixed
+
+53
+* #6417 fixed
+
+52
+* updated translations (jedierikb, sayamindu)
+
+51
+* #4525 defensive techniques against translations with bad variables (jedierikb)
+* #5899 fixed (jedierikb)
+* tag support (jedierikb)
+
+50
+* #5830 fix (jedierikb)
+* #4525 updates with fixes to .po files (jedierikb)
+* #5899 workaround to avoid occasional crashes (jedierikb)
+
+49
+* #4525 updated with .po files (jedierikb, sayamindu)
+
+48
+* #5500 fix (jedierikb)
+* #4525 applied (jedierikb)
+
+47
+* #5448 updated (jedierikb)
+
+46
+* #5448 fix (jedierikb)
+* #4983 addressed (jedierikb)
+
+45
+* new .pot file (jedierikb)
+* fullscreen flag re-added (jedierikb)
+
+44
+* clipboard fix (jedierikb)
+
+43
+* #5230 fixed (jedierikb)
+
+42
+* #4983 addressed (jedierikb)
+
+41
+* #5177, fullscreen compliance for u1 (jedierikb)
+* #4813, clipboard files via /instance not /tmp (jedierikb)
+
+40
+* filepath changes for bitfrost, rainbow (jedierikb)
+
+39
+* tray improvements (jedierikb)
+* thumbnail improvements (jedierikb)
+* game key improvements (jedierikb)
+
+38
+* change time of creation of tmp (jedierikb)
+
+37
+* prevent duplicate thumbnails when shared (jedierikb)
+* prevent changing modes when using timer (jedierikb, mikhak)
+* fix audio mesh share (jedierikb, mikhak)
+
+36
+* ui (jedierikb, mikhak, eben)
+* tubes
+
+35
+* #4422 addressed (jedierikb)
+
+34
+* frs ui (jedierikb, mikhak)
+* notify::active #2026 should close #3097, #3616 (jedierikb)
+* #4111, #4189 fixed (jedierikb)
+* #1063, #3776 addressed (jedierikb), blocked by #4144
+* #809 fixed (jedierikb)
+* #3774 fixed (jedierikb)
+* #4209 worked around (jedierikb)
+* #1557 addressed (jedierikb)
+* #3588 fixed (jedierikb)
+
+33
+* bug with slow creation of audio thumbnails (jedierikb)
+
+32
+* changed audio/wav mimetype to audio/x-wav for entry into the journal
+
+31
+* #4010 audio/wav mimetype for entry into the journal
+
+30
+* ogg not ogv
+
+27
+* delete (jedierikb)
+
+26
+* ui (jedierikb)
+
+25
+* fix for narrowly possible gtk bug when taking pictures (closes #3342)
+* fix for xv "glitches" when moving and resizing gtk.Windows (closes #3046)
+* enable the disappearing record buttons which don't disappear if your moused over them (jedierikb)
+
+24
+* fix for saving audio files' image counterparts (prevents blank screen and spinning cursor) (jedierikb)
+* correctly handle bug in notify::active callbacks, and opened #2026 (jedierikb)
+* disable the disappearing record buttons until more work can be done on them (jedierikb)
+* correct mime and filetypes for audio recordings (addresses #2909) (jedierikb)
+* fix for hitherto unknown bug regarding multiple saves to the datastore (jedierikb)
+* new icon (simon@schampijer.de)
+
+23
+* journal integration (closes #1758) (jedierikb):
+** media saved to the the journal
+** re-naming of media in the record actvity and the journal
+** deleting of media in the record activity and the journal
+* correct ogg/theora mimetypes (addresses #2653) (jedierikb)
+* sharing of all recorded media on the mesh (closes #2436) (jedierikb)
+* you can delete buddy's photos pushed to you (closes #2722) (jedierikb)
+* you can view buddy's photos when you re-open an activity (closes #2439) (jedierikb)
+* all widgets insensitive when shuttingdown and writing to journal (jedierikb)
+* better pipeline-to-window hot swapping (jedierikb)
+* audio record and playback (jedierikb)
+* drag and drop of all media types for all media (closes #2345)(jedierikb, tomeu)
+* graphic overlay windows fade away when not used to reveal photo, revealed with mouse movement (jedierikb)
+bugs:
+* graphic flashes on the resizing of video windows (#3046)
+* xv video resizes incorrectly occasionally (#2127)
+* prevents async datastore saves, so the activity appears to hang when closing (#3071)
+* no reconnecting to a buddy to download media after leaving the activity (#2977)
+* matches on buddy nicks to confirm mesh downloads, not their ids (as a workaround to #2299) (jedierikb, dcbw)
+* incomplete frame buffer bug on beginning of stream (#3155)
+next:
+* missing final graphics (#2585), layout
+* display information to user about progress of mesh downloads and media encodings
+
+22
+* fixes fixes to maximize window disappering (jedierikb)
+
+21
+* fixes to maximize window disappearing (jedierikb)
+* shutdown calls all through one method, prevents video lingering post shutdown (jedierikb, dcbw)
+* disconnect drag connections (jedierikb)
+
+20
+* fixes to clipboard functionality for d&d and c&p (jedierikb, tomeu)
+
+19
+* clipboard functionality for photos, including ctrl+c and drag (jedierikb, tomeu)
+* thumbnails buttons are not gtk.Buttons to allow for maximum usability (jedierikb)
+* fixed bug allowing the canceling of video recordings by accident (jedierikb)
+* fixed bug for allowing silent movies (undocumented feature) (jedierikb)
+
+18
+* Jitters when switching video modes reduced (jedierikb)
+* Able to re-open photo sessions from the journal (jedierikb)
+* Mesh sharing uses unique ports per instance of Record (jedierikb, dcbw)
+
+17
+* Fix out-of-bounds theoraenc recording (jedierikb)
+* Fix delete of video thumbnails (jedierikb)
+* Remove the shown media if its thumbnail is deleted (jedierikb)
+* Show live video tags when switching modes (jedierikb)
+* Fixes for showing hi-res shared photos (jedierikb)
+
+16
+* Cache rendered thumbnails (jedierikb)
+* Thread the rendering of full-screen photos (jedierikb)
+* Border around pip (jedierikb)
+* Switch display sizes of ogg and live video (jedierikb)
+* Higher quality audio & video recording (jedierikb)
+* Mesh transfer of thumbnails, photos, and deleting of photos (jedierikb)
+* Activity instance directories for photos
+
+14
+* Multiple video recordings work (jedierikb)
+* Better shutter-click protection (jedierikb)
+
+13
+* New camera activity layout (jedierikb, mikhak, eben)
+* New camera.c for python 2.5 (jedierikb, dcbw)
+* Just a test release, many features do not work (jedierikb)

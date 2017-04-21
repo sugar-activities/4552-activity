@@ -1,0 +1,346 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-20 17:58+0000\n"
+"PO-Revision-Date: 2008-07-24 13:53+0100\n"
+"Last-Translator: Satyanarayana Murthy Saladi <saladism@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+
+#: activity/activity.info:2
+#: /home/sugar/src/activities/record.activity/constants.py:122
+msgid "Record"
+msgstr "రికార్డు చేయి"
+
+#: /home/sugar/src/activities/record.activity/constants.py:21
+#, python-format
+#, fuzzy
+msgid "%(1)s minute"
+msgid_plural "%(1)s minutes"
+msgstr[0] "%(1)s నిమిషాలు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:25
+#, python-format
+#, fuzzy
+msgid "%(1)s second"
+msgid_plural "%(1)s seconds"
+msgstr[0] "%(1)s సెకనులు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:123
+msgid "Photo"
+msgstr "పటము"
+
+#: /home/sugar/src/activities/record.activity/constants.py:124
+msgid "Video"
+msgstr "చలనచిత్రము"
+
+#: /home/sugar/src/activities/record.activity/constants.py:125
+msgid "Audio"
+msgstr "ధ్వని"
+
+#: /home/sugar/src/activities/record.activity/constants.py:126
+msgid "Time Lapse"
+msgstr "కాలక్రమేణా"
+
+#: /home/sugar/src/activities/record.activity/constants.py:127
+msgid "Animation"
+msgstr "ఊహా చలనచిత్రము"
+
+#: /home/sugar/src/activities/record.activity/constants.py:128
+msgid "Panorama"
+msgstr "పనోరమా"
+
+#: /home/sugar/src/activities/record.activity/constants.py:129
+msgid "Interview"
+msgstr "సంభాషణ"
+
+# TRANS: photo by photographer, e.g., "Photo by Mary"
+#. TRANS: photo by photographer, e.g., "Photo by Mary"
+#: /home/sugar/src/activities/record.activity/constants.py:131
+#, python-format
+msgid "%(1)s by %(2)s"
+msgstr "%(1)s బై %(2)s"
+
+#: /home/sugar/src/activities/record.activity/constants.py:132
+msgid "Title:"
+msgstr "పీఠిక:"
+
+#: /home/sugar/src/activities/record.activity/constants.py:133
+msgid "Recorder:"
+msgstr "రికార్డరు:"
+
+#: /home/sugar/src/activities/record.activity/constants.py:134
+msgid "Date:"
+msgstr "తేదీ: "
+
+#: /home/sugar/src/activities/record.activity/constants.py:135
+msgid "Tags:"
+msgstr "గుర్తింపు చీటీలు :"
+
+#: /home/sugar/src/activities/record.activity/constants.py:136
+msgid "Saving"
+msgstr "బద్రపరచుతున్నా"
+
+#: /home/sugar/src/activities/record.activity/constants.py:137
+msgid "Finished recording"
+msgstr "రికార్డింగు పూర్తయినది"
+
+#: /home/sugar/src/activities/record.activity/constants.py:138
+msgid "Remove"
+msgstr "తీసివేయి"
+
+#: /home/sugar/src/activities/record.activity/constants.py:139
+msgid "Stopped recording"
+msgstr "రికార్డింగు ఆగినది"
+
+#: /home/sugar/src/activities/record.activity/constants.py:140
+msgid "Copy to clipboard"
+msgstr "క్లిప్ బోర్డ్ కు నకలు చేయి"
+
+#: /home/sugar/src/activities/record.activity/constants.py:141
+msgid "Timer:"
+msgstr "టైమరు:"
+
+#: /home/sugar/src/activities/record.activity/constants.py:142
+msgid "Duration:"
+msgstr "సమయము:"
+
+#: /home/sugar/src/activities/record.activity/constants.py:143
+msgid "Remaining:"
+msgstr ""
+
+#: /home/sugar/src/activities/record.activity/constants.py:144
+msgid "Immediate"
+msgstr "వెంటనే"
+
+#: /home/sugar/src/activities/record.activity/constants.py:145
+msgid "Play"
+msgstr "ఆడు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:146
+msgid "Pause"
+msgstr "ఆపు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:147
+msgid "Add frame"
+msgstr "ఫ్రేము చేర్చు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:148
+msgid "Remove frame"
+msgstr "ఫ్రేము తీసివేయి"
+
+#: /home/sugar/src/activities/record.activity/constants.py:149
+#, python-format
+msgid "%(1)s frames per second"
+msgstr "సెకనునుకు %(1)s ఫ్రేములు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:150
+#, fuzzy
+msgid "Quality"
+msgstr "నాణ్యత:"
+
+#: /home/sugar/src/activities/record.activity/constants.py:151
+msgid "Default"
+msgstr "అప్రమేయం"
+
+#: /home/sugar/src/activities/record.activity/constants.py:152
+msgid "Best"
+msgstr "అత్యుత్తమం"
+
+#: /home/sugar/src/activities/record.activity/constants.py:153
+msgid "High"
+msgstr "ఉత్తమమైన"
+
+#: /home/sugar/src/activities/record.activity/constants.py:154
+msgid "Low"
+msgstr "తక్కువైన"
+
+#: /home/sugar/src/activities/record.activity/constants.py:155
+msgid "Large file"
+msgstr "పెద్ద ఫైలు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:156
+msgid "Small file"
+msgstr "చిన్న ఫైలు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:157
+msgid "Silent"
+msgstr "మౌనము"
+
+#: /home/sugar/src/activities/record.activity/constants.py:158
+msgid "Rotate"
+msgstr "తిప్పు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:159
+msgid "Width"
+msgstr "వెడల్పు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:160
+msgid "Height"
+msgstr "ఎత్తు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:161
+msgid "Click to take picture"
+msgstr "చిత్రం తీయడానికి నొక్కు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:162
+msgid "Click to add picture"
+msgstr "చిత్రం కలపడానికి నొక్కు"
+
+#. TRANS: Downloading Photo from Mary
+#: /home/sugar/src/activities/record.activity/constants.py:164
+#, python-format
+msgid "Downloading %(1)s from %(2)s"
+msgstr "%(2)s నుండి %(1)s దిగుమతి జరుగుతుంది"
+
+#. TRANS: Cannot download this Photo
+#: /home/sugar/src/activities/record.activity/constants.py:166
+#, python-format
+msgid "Cannot download this %(1)s"
+msgstr "ఈ %(1)s దిగుమతి కుదరదు"
+
+#. TRANS: Save Photo to:
+#: /home/sugar/src/activities/record.activity/constants.py:168
+#, python-format
+#, python-format, fuzzy
+msgid "Save %(1)s to:"
+msgstr "%(1) ను ఇక్కడకు బద్రపరుస్తున్నా:"
+
+#: /home/sugar/src/activities/record.activity/constants.py:169
+#, python-format
+msgid "Your %(1)s is full"
+msgstr "మీ %(1)s నిండుగా ఉన్నది"
+
+#: /home/sugar/src/activities/record.activity/constants.py:170
+msgid "Journal"
+msgstr "పద్దు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:171
+msgid "USB"
+msgstr "యు ఎస్ బి(USB)"
+
+#: /home/sugar/src/activities/record.activity/constants.py:172
+msgid "SD Card"
+msgstr "ఎస్ డి కార్డ్(SD Card)"
+
+#: /home/sugar/src/activities/record.activity/constants.py:173
+msgid "Preferences"
+msgstr "ఇష్టాలు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:174
+msgid "Free space:"
+msgstr "ఖాళీ జాగా"
+
+#. TRANS: 7 photos
+#: /home/sugar/src/activities/record.activity/constants.py:176
+msgid "Bitrate"
+msgstr "బిట్ రేట్"
+
+#: /home/sugar/src/activities/record.activity/constants.py:177
+msgid "Maximum Bitrate"
+msgstr "గరిష్ట బిట్ రేట్"
+
+#: /home/sugar/src/activities/record.activity/constants.py:178
+msgid "Minumum Bitrate"
+msgstr "కనిష్ట బిట్ రేట్"
+
+#: /home/sugar/src/activities/record.activity/constants.py:179
+msgid "Manage Bitrate"
+msgstr "బిట్ రేట్ ను నియంత్రించు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:180
+msgid "Border"
+msgstr "అంచు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:181
+msgid "Center"
+msgstr "మద్యలో"
+
+#: /home/sugar/src/activities/record.activity/constants.py:182
+msgid "Frames"
+msgstr "ఫ్రేములు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:183
+msgid "Automatic keyframe detection"
+msgstr "దానంతట దానిగా కీ ఫ్రేమ్ శోధన"
+
+#: /home/sugar/src/activities/record.activity/constants.py:184
+msgid "Force keyframe"
+msgstr "కీ ఫ్రేమ్ చొప్పించు"
+
+#: /home/sugar/src/activities/record.activity/constants.py:185
+msgid "Keyframe frequency"
+msgstr "కీ ఫ్రేమ్ ఫ్రీక్వెంసీ"
+
+#: /home/sugar/src/activities/record.activity/constants.py:186
+msgid "Keyframe minimum distance"
+msgstr "కీ ఫ్రేమ్ అతితక్కువ దూరం"
+
+#: /home/sugar/src/activities/record.activity/constants.py:187
+msgid "Keyframe threshold"
+msgstr "కీ ఫ్రేమ్ పతాక స్థాయి"
+
+#: /home/sugar/src/activities/record.activity/constants.py:188
+msgid "Noise Sensitivity"
+msgstr "గోల  గ్రాహ్యత"
+
+#: /home/sugar/src/activities/record.activity/constants.py:189
+msgid "Quick"
+msgstr "త్వరగా"
+
+#: /home/sugar/src/activities/record.activity/constants.py:190
+msgid "Sharpness"
+msgstr "పదును"
+
+#: /home/sugar/src/activities/record.activity/constants.py:191
+msgid "Capacity"
+msgstr "సామర్ధ్యం"
+
+#, python-format
+#~ msgid "%(1)s hours, %(2)s minutes, %(1)s seconds remaining"
+#~ msgstr "%(1)s hours, %(2)s minutes, %(1)s seconds remaining"
+
+#, python-format
+#~ msgid "%(1)s minutes, %(2)s seconds remaining"
+#~ msgstr "%(1)s నిమిషాలు, %(1)s సెకనులు మిగిలిఉన్నాయి"
+
+#, python-format
+#~ msgid "%(1)s hours remaining"
+#~ msgstr "%(1)s సెకనులు మిగిలిఉన్నాయి"
+
+#, python-format
+#~ msgid "%(1)s minutes remaining"
+#~ msgstr "%(1)s సెకనులు మిగిలిఉన్నాయి"
+
+#, python-format
+#~ msgid "%(1)s seconds remaining"
+#~ msgstr "%(1)s సెకనులు మిగిలిఉన్నాయి"
+
+# TRANS: 7 photos
+#, python-format
+#~ msgid "%(1)s hours"
+#~ msgstr "%(1)s చిత్రములు"
+
+#, python-format
+#~ msgid "%(1)s photos"
+#~ msgstr "%(1)s చిత్రములు"
+
+#~ msgid "Best quality"
+#~ msgstr "మరీమంచి నాణ్యత"
+
+#~ msgid "High quality"
+#~ msgstr "మంచి నాణ్యత"
+
+#~ msgid "Low quality"
+#~ msgstr "తక్కువ నాణ్యత"
+
+#~ msgid "Your disk is full"
+#~ msgstr "డిస్క్ నిండుగా ఉంది "

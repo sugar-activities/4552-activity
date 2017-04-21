@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-06-02 00:31-0400\n"
+"PO-Revision-Date: 2008-07-09 08:31-0400\n"
+"Last-Translator: Juliano Bittencourt <juliano@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 1.1.0rc2\n"
+
+#: activity/activity.info:2
+msgid "Record"
+msgstr "Gravar"
+
+#: button.py:26
+msgid "Remove"
+msgstr "Remover"
+
+#: button.py:37
+msgid "Copy to clipboard"
+msgstr "Copiar para a prancheta"
+
+#: constants.py:24 record.py:133
+msgid "Photo"
+msgstr "Foto"
+
+#: constants.py:31 record.py:141
+msgid "Video"
+msgstr "Vídeo"
+
+#: constants.py:38 record.py:152
+msgid "Audio"
+msgstr "Som"
+
+#: glive.py:397 model.py:355
+#, python-format
+msgid "%s by %s"
+msgstr ""
+
+#: glive.py:556
+msgid "Saving..."
+msgstr ""
+
+#: mediaview.py:54
+msgid "Author:"
+msgstr ""
+
+#: mediaview.py:70
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: mediaview.py:118
+msgid "Date:"
+msgstr "Data:"
+
+#: model.py:154
+#, python-format
+msgid "%d:%02d remaining"
+msgstr ""
+
+#: record.py:202
+msgid "Title:"
+msgstr "Título:"
+
+#: record.py:527
+msgid "Download failed."
+msgstr ""
+
+#: record.py:529
+msgid "Downloading..."
+msgstr ""
+
+#: record.py:531
+msgid "Requesting..."
+msgstr ""
+
+#: record.py:828
+#, fuzzy
+msgid "Quality:"
+msgstr "Qualidade:"
+
+#: record.py:829
+msgid "Low"
+msgstr "Baixa"
+
+#: record.py:833
+msgid "High"
+msgstr "Alta"
+
+#: record.py:841
+msgid "Preferences"
+msgstr "Preferências"
+
+# I think it's better not to translate this term because it's used by brazilians.
+#: record.py:888
+msgid "Timer:"
+msgstr "Timer:"
+
+#: record.py:892
+msgid "Immediate"
+msgstr "Imediato"
+
+#: record.py:909
+#, python-format
+#, fuzzy
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%(1)s segundos"
+
+#: record.py:917
+msgid "Duration:"
+msgstr "Duração:"
+
+#: record.py:935
+#, python-format
+#, fuzzy
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%(1)s minutos"
+
+#~ msgid "Time Lapse"
+#~ msgstr "Duração"
+
+#~ msgid "Animation"
+#~ msgstr "Animação"
+
+#~ msgid "Panorama"
+#~ msgstr "Panorama"
+
+#~ msgid "Interview"
+#~ msgstr "Entrevista"
+
+# TRANS: photo by photographer, e.g., "Photo by Mary"
+#, python-format
+#~ msgid "%(1)s by %(2)s"
+#~ msgstr "%(1)s por %(2)s"
+
+#~ msgid "Recorder:"
+#~ msgstr "Gravador:"
+
+#~ msgid "Saving"
+#~ msgstr "Salvando"
+
+#~ msgid "Finished recording"
+#~ msgstr "Gravação terminada"
+
+#~ msgid "Stopped recording"
+#~ msgstr "Gravação interrompida"
+
+#~ msgid "Play"
+#~ msgstr "Reproduzir"
+
+#~ msgid "Pause"
+#~ msgstr "Pausar"
+
+#~ msgid "Add frame"
+#~ msgstr "Adicionar quadro"
+
+#~ msgid "Remove frame"
+#~ msgstr "Remover quadro"
+
+#, python-format
+#~ msgid "%(1)s frames per second"
+#~ msgstr "%(1)s quadros por segundo"
+
+#~ msgid "Default"
+#~ msgstr "Padrão"
+
+#~ msgid "Best"
+#~ msgstr "Melhor"
+
+#~ msgid "Large file"
+#~ msgstr "Arquivo grande"
+
+#~ msgid "Small file"
+#~ msgstr "Arquivo pequeno"
+
+#~ msgid "Silent"
+#~ msgstr "Silencioso"
+
+#~ msgid "Rotate"
+#~ msgstr "Girar"
+
+#~ msgid "Width"
+#~ msgstr "Largura"
+
+#~ msgid "Height"
+#~ msgstr "Altura"
+
+#~ msgid "Click to take picture"
+#~ msgstr "Clique para tirar foto"
+
+#~ msgid "Click to add picture"
+#~ msgstr "Clique para adicionar imagem"
+
+#, python-format
+#~ msgid "Downloading %(1)s from %(2)s"
+#~ msgstr "Efetuando o download de %(1)s a partir de %(2)s"
+
+#, python-format
+#~ msgid "Cannot download this %(1)s"
+#~ msgstr "Não é possível efetuar o download de %(1)s"
+
+#, python-format
+#, python-format, fuzzy
+#~ msgid "Save %(1)s to:"
+#~ msgstr "Salvar %(1) para:"
+
+#, python-format
+#~ msgid "Your %(1)s is full"
+#~ msgstr "Seu %(1)s está cheio"
+
+#~ msgid "Journal"
+#~ msgstr "Diário"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "SD Card"
+#~ msgstr "Cartão SD"
+
+#~ msgid "Free space:"
+#~ msgstr "Espaço livre:"
+
+#~ msgid "Bitrate"
+#~ msgstr "Bitrate"
+
+#~ msgid "Maximum Bitrate"
+#~ msgstr "Bitrate Máximo"
+
+#~ msgid "Minumum Bitrate"
+#~ msgstr "Bitrate Mínimo"
+
+#~ msgid "Manage Bitrate"
+#~ msgstr "Gerenciar o Bitrate"
+
+# Moldura?
+#~ msgid "Border"
+#~ msgstr "Borda"
+
+#~ msgid "Center"
+#~ msgstr "Centro"
+
+#~ msgid "Frames"
+#~ msgstr "Quadros"
+
+#~ msgid "Automatic keyframe detection"
+#~ msgstr "Detecção automática do quadro chave"
+
+#~ msgid "Force keyframe"
+#~ msgstr "Forçar o quadro chave"
+
+#~ msgid "Keyframe frequency"
+#~ msgstr "Freqüência do quadro chave"
+
+#~ msgid "Keyframe minimum distance"
+#~ msgstr "Distância mínima entre os quadro chave"
+
+#~ msgid "Keyframe threshold"
+#~ msgstr "Limite do quadro chave"
+
+#~ msgid "Noise Sensitivity"
+#~ msgstr "Sensibilidade ao Ruído"
+
+#~ msgid "Quick"
+#~ msgstr "Rapidamente"
+
+#~ msgid "Sharpness"
+#~ msgstr "Nitidez"
+
+#~ msgid "Capacity"
+#~ msgstr "Capacidade"
+
+#, python-format
+#~ msgid "%(1)s hours, %(2)s minutes, %(1)s seconds remaining"
+#~ msgstr "%(1)s horas, %(2)s minutos, %(1)s segundos restantes"
+
+#, python-format
+#~ msgid "%(1)s minutes, %(2)s seconds remaining"
+#~ msgstr "%(1)s minutos, %(1)s segundos restantes"
+
+#, python-format
+#~ msgid "%(1)s hours remaining"
+#~ msgstr "%(1)s horas restantes"
+
+#, python-format
+#~ msgid "%(1)s minutes remaining"
+#~ msgstr "%(1)s minutos restantes"
+
+#, python-format
+#~ msgid "%(1)s seconds remaining"
+#~ msgstr "%(1)s segundos faltando"
+
+# TRANS: 7 photos
+#, python-format
+#~ msgid "%(1)s hours"
+#~ msgstr "%(1)s horas"
+
+#, python-format
+#~ msgid "%(1)s photos"
+#~ msgstr "%(1)s fotos"
+
+#~ msgid "Best quality"
+#~ msgstr "Melhor qualidade"
+
+#~ msgid "High quality"
+#~ msgstr "Alta qualidade"
+
+#~ msgid "Low quality"
+#~ msgstr "Baixa qualidade"
+
+#~ msgid "Your disk is full"
+#~ msgstr "Seu disco está cheio"
